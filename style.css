@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+
+.bg-lalala{
+	background: hsla(269, 100%, 21%, 1);
+}
+
+.bg-lalala:hover{
+	background: hsla(188, 52%, 30%, 1);
+	transition:all ease .5s;
+}
+
+body{
+    padding-top: 3.5rem;
+	background-color: hsla(213, 32%, 33%, 0.86);
+	font-family: 'Questrial', sans-serif;
+	font-weight: 400;
+	color:black;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+}
+
+img{
+	border:5px solid white;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+	border-radius:20px;
+
+}
+
+nav div[class^="col"]{
+	padding-top:0;
+}
+
+
+
+div[class^="col"] {
+	padding:3rem 1rem 0;
+}
+
+.carouselExampleControls {
+	width:100px;
+}
